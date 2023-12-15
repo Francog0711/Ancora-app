@@ -1,0 +1,130 @@
+body {
+    background-color: #142452;
+    font-family: sans-serif;
+    margin:auto;
+    text-align: center;
+}
+
+.login-form, .contenedor{
+    width: 300px;
+    margin:0 auto;
+}
+.login-form h1{
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    padding: 70px 0 10px 0;
+}
+.login-form input[type="password"],
+.login-form input[type=text] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.btn-login{
+    width: 100%;
+    padding: 15px;
+    background-color: #666366;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #000;
+}
+.btn-login:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn-register{
+    width: 100%;
+    padding: 15px;
+    background-color: #e99a08;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #000;
+    margin-top: 20px;
+
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+.btn-register:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+
+
+
+
+/*Register*/
+
+
+
+
+.register-form, .contenedor{
+    width: 400px;
+    margin:0 auto;
+    background-color: #fff;
+    padding: 0px 20px 60px 20px;
+    margin-top: 35px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 30), 0 15px 12px rgba(0, 0, 0, 22);
+}
+.register-form h1{
+    text-align: center;
+    color: #142452;
+    font-size: 35px;
+    padding: 70px 0 10px 0;
+}
+.register-form input[type="password"],
+.register-form input[type=text] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.btn-cancel{
+    width: 50%;
+    padding: 15px;
+    background-color: #666366;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #000;
+
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+}
+.btn-cancel:hover{
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn-save{
+    width: 50%;
+    padding: 15px;
+    background-color: #e99a08;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: #000;
+    margin-top: 20px;
+}
+.btn-save:hover{
+    color: #fff;
+    opacity: 0.8;
+}
