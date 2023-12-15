@@ -9,13 +9,17 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="resource/css/login-register.css">
+    <link rel="stylesheet" href="resource/css/index.css">
     <title>App Calculo</title>
 </head>
-<body>
-    <div class="cartel-inicio row-12 text-slider p-3 ms-0 position-absolute bg-opacity-75 text-bg-light">
-        <h1 class="">ÁNCORA CONSTRUCCION</h1>
-        <p class="">Construccion arquitectonica y de ingeneria civil</p>
-      </div>
+<body>  
+        <% if (login) { %>
+
+            <h1>El usuario conectado es: <strong><%= name %></strong></h1>
+            <a href="logout" class="a-logout">Cerrar Sesión</a>
+            <% } else { %>
+                <h1><strong><%= name %></strong></h1>
+                <a href="login" class="a-login">Ir al LOGIN</a>
+        <% } %>
 </body>
 </html>
